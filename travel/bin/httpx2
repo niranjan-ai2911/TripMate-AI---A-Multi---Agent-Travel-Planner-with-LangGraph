@@ -1,0 +1,6 @@
+#!/Users/niranjan2911/Desktop/AI_Engineer_Projects/Multi_Agent_with_LangGraph/TripMate-AI---A-Multi---Agent-Travel-Planner-with-LangGraph/travel/bin/python3.11
+import sys
+from httpx2._main import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
